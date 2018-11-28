@@ -1,0 +1,39 @@
+table {
+    border : 1px solid black;
+    border-collapse : collapse;
+    height:80%; 
+    width :80%;
+}
+
+tr:nth-child(odd) td:nth-child(odd) {
+width: 100 px;
+height : 100 px;
+background-color : grey;
+
+}
+ tr:nth-child(even) td:nth-child(even) {
+     width: 100px;
+     height:100px;
+     background-color: grey;
+ }
+
+tr:nth-child(odd) td:nth-child(even) {
+    width: 100px;
+    height: 100px;
+    background-color : white;
+}
+ tr:nth-child(even) td:nth-child(odd) {
+
+    width:100px;
+    height: 100px;
+    background-color: white;
+
+ }
+
+img{
+    height : 100px;
+    width : 100px;
+    float: middle;
+    
+   
+}
